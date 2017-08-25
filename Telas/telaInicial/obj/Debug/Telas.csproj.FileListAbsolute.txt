@@ -1,0 +1,16 @@
+C:\Users\Tiago\Documents\Visual Studio 2015\ProjetoSaude1\Telas\telaInicial\bin\Debug\telaInicial.exe.config
+C:\Users\Tiago\Documents\Visual Studio 2015\ProjetoSaude1\Telas\telaInicial\obj\Debug\telaInicial.exe
+C:\Users\Tiago\Documents\Visual Studio 2015\ProjetoSaude1\Telas\telaInicial\obj\Debug\telaInicial.pdb
+C:\Users\Tiago\Documents\Visual Studio 2015\ProjetoSaude1\Telas\telaInicial\bin\Debug\telaInicial.exe
+C:\Users\Tiago\Documents\Visual Studio 2015\ProjetoSaude1\Telas\telaInicial\bin\Debug\telaInicial.pdb
+C:\Users\Tiago\Documents\Visual Studio 2015\ProjetoSaude1\Telas\telaInicial\bin\Debug\Modelo.pdb
+C:\Users\Tiago\Documents\Visual Studio 2015\ProjetoSaude1\Telas\telaInicial\obj\Debug\Telas.csprojResolveAssemblyReference.cache
+C:\Users\Tiago\Documents\Visual Studio 2015\ProjetoSaude1\Telas\telaInicial\obj\Debug\telaInicial.Properties.Resources.resources
+C:\Users\Tiago\Documents\Visual Studio 2015\ProjetoSaude1\Telas\telaInicial\obj\Debug\telaInicial.telaCadastro.resources
+C:\Users\Tiago\Documents\Visual Studio 2015\ProjetoSaude1\Telas\telaInicial\obj\Debug\telaInicial.telaLogin.resources
+C:\Users\Tiago\Documents\Visual Studio 2015\ProjetoSaude1\Telas\telaInicial\obj\Debug\telaInicial.telaSplash.resources
+C:\Users\Tiago\Documents\Visual Studio 2015\ProjetoSaude1\Telas\telaInicial\obj\Debug\Telas.csproj.GenerateResource.Cache
+C:\Users\Tiago\Documents\Visual Studio 2015\ProjetoSaude1\Telas\telaInicial\bin\Debug\Modelo.dll
+C:\Users\Tiago\Documents\Visual Studio 2015\ProjetoKH1\ProjetoSaude2\Telas\telaInicial\bin\Debug\telaInicial.exe.config
+C:\Users\Tiago\Documents\Visual Studio 2015\ProjetoKH1\ProjetoSaude2\Telas\telaInicial\obj\Debug\telaInicial.exe
+C:\Users\Tiago\Documents\Visual Studio 2015\ProjetoKH1\ProjetoSaude2\Telas\telaInicial\obj\Debug\telaInicial.pdb
