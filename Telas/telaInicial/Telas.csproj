@@ -60,6 +60,12 @@
     <Compile Include="telaLogin.Designer.cs">
       <DependentUpon>telaLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="telaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="telaPrincipal.Designer.cs">
+      <DependentUpon>telaPrincipal.cs</DependentUpon>
+    </Compile>
     <Compile Include="telaSplash.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +87,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="telaLogin.resx">
       <DependentUpon>telaLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="telaPrincipal.resx">
+      <DependentUpon>telaPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="telaSplash.resx">
       <DependentUpon>telaSplash.cs</DependentUpon>
@@ -111,6 +120,10 @@
     <ProjectReference Include="..\..\Controle\Controle.csproj">
       <Project>{86a87d5f-e593-4ea1-94da-0170445cb221}</Project>
       <Name>Controle</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Memoria\Memoria.csproj">
+      <Project>{df26dd38-45f7-4c5a-85f5-077e7e660ae2}</Project>
+      <Name>Memoria</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Modelo\Modelo.csproj">
       <Project>{9b1f892d-8ecb-4ada-8169-467776ef736b}</Project>

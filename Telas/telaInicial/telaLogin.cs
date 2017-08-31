@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Modelo;
+using System.Collections;
+using Memoria;
 
 namespace telaInicial
 {
@@ -16,26 +18,36 @@ namespace telaInicial
         public telaLogin()
         {
             InitializeComponent();
+                    
         }
-        public string N = "";
-        public string S = "";
-        public void Incluir(ModeloUsuario modelo)
-        {
-           
-        }
+
 
         private void btEntrar_Click(object sender, EventArgs e)
         {
             
+            MemoriaUsuario RecebeLista = new MemoriaUsuario();
+            ModeloUsuario Lista = new ModeloUsuario();
+           
+            foreach (ModeloUsuario Busca in RecebeLista.GetUsuario())
+            {
 
-            if (N== txtUsuario.Text && S == txtPw.Text)
-            {
-                MessageBox.Show("login efetuado com sucesso " + N.ToString());
+
+                if (txtUsuario.Text == Busca.UserName )
+               
+                   {
+                    telaPrincipal f = new telaPrincipal();
+                    f.txtNomeUsuario.Text = "";
+                    f.txtNomeUsuario.Text = Busca.UserName.ToString();
+                    //MessageBox.Show("Bem vindo ao sistema, " + Busca.UserName.ToString());
+                    f.ShowDialog();
+                    break;
+                   }
+               // else { MessageBox.Show("inválido" ); }
+
             }
-            else
-            {
-                MessageBox.Show("Falhou " + N.ToString());
-            }
+
+           // dataGridView1.DataSource = RecebeLista.GetUsuario(); 
+
 
         }
 
@@ -44,6 +56,11 @@ namespace telaInicial
             Dispose();
             telaCadastro cadastro = new telaCadastro();
             cadastro.ShowDialog();
+        }
+
+        private void telaLogin_Load(object sender, EventArgs e)
+        {
+            //this.WindowState = FormWindowState.Maximized;
         }
     }
 }

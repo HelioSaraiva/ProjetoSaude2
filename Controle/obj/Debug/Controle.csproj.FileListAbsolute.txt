@@ -1,0 +1,9 @@
+C:\Users\Tiago\Documents\Visual Studio 2015\ProjetoKH1\ProjetoSaude2\Controle\bin\Debug\Controle.dll
+C:\Users\Tiago\Documents\Visual Studio 2015\ProjetoKH1\ProjetoSaude2\Controle\bin\Debug\Controle.pdb
+C:\Users\Tiago\Documents\Visual Studio 2015\ProjetoKH1\ProjetoSaude2\Controle\obj\Debug\Controle.csprojResolveAssemblyReference.cache
+C:\Users\Tiago\Documents\Visual Studio 2015\ProjetoKH1\ProjetoSaude2\Controle\obj\Debug\Controle.dll
+C:\Users\Tiago\Documents\Visual Studio 2015\ProjetoKH1\ProjetoSaude2\Controle\obj\Debug\Controle.pdb
+C:\Users\Tiago\Documents\Visual Studio 2015\ProjetoKH1\ProjetoSaude2\Controle\bin\Debug\Memoria.dll
+C:\Users\Tiago\Documents\Visual Studio 2015\ProjetoKH1\ProjetoSaude2\Controle\bin\Debug\Modelo.dll
+C:\Users\Tiago\Documents\Visual Studio 2015\ProjetoKH1\ProjetoSaude2\Controle\bin\Debug\Memoria.pdb
+C:\Users\Tiago\Documents\Visual Studio 2015\ProjetoKH1\ProjetoSaude2\Controle\bin\Debug\Modelo.pdb

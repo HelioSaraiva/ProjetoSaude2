@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,8 @@ namespace Modelo
 {
     public class ModeloUsuario
     {
-        public ModeloUsuario()
+
+          public ModeloUsuario()
         {
             this.UserCod = 0;
             this.UserName = "";
@@ -55,7 +57,7 @@ namespace Modelo
             this.UserAlt = altura;
             this.UserAtFis = atifisica;
             this.UserVicio = vicio;
-            
+
         } 
         private int user_cod;
 
@@ -175,6 +177,7 @@ namespace Modelo
             get { return this.user_vicio; }
             set { this.user_vicio = value; }
         }
+
         ///////////////////////////////////       
         public void EnviarMensagem( string msg)
         {
@@ -184,7 +187,7 @@ namespace Modelo
         {
 
         }
-        
+
         public void CalculaIMC(Double peso, Double altura)
         {
             UserPeso = peso;
@@ -194,7 +197,7 @@ namespace Modelo
         }
         public void SeloProf(String Profi) // n é void ,retorna selo
         {
-            
+
         }
 
     }
