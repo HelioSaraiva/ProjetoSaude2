@@ -10,23 +10,23 @@ namespace Modelo
     {
         public ModeloAmigo()
         {
-            this.AmgCod = 0;
+            this.AmgId = 0;
             this.AmgQntd = 0;
             this.AmgCat = 0;
         }
 
         public ModeloAmigo(int cod, int qntd, int categoria)
         {
-            this.AmgCod = cod;
+            this.AmgId = cod;
             this.AmgQntd = qntd;
             this.AmgCat = categoria;
         }
-        private int amg_cod;
+        private int amg_id;
 
-        public int AmgCod
+        public int AmgId
         {
-            get { return this.amg_cod; }
-            set { this.amg_cod = value; }
+            get { return this.amg_id; }
+            set { this.amg_id = value; }
         }
         private int amg_qntd;
 

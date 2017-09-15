@@ -6,23 +6,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Memoria
+namespace Lista
 {
 
-    public  class MemoriaUsuario
+    public  class ListaUsuario
     {
-        public static ArrayList ListaUsuario = new ArrayList();
+        public static ArrayList ArrListaUsuario = new ArrayList();
         
         public void Incluir(ModeloUsuario modelo)
         {
             
-            ListaUsuario.Add(modelo);
+            ArrListaUsuario.Add(modelo);
             
         }
         public ArrayList GetUsuario()
         {
             ArrayList al = new ArrayList();
-            al = ListaUsuario;
+            al = ArrListaUsuario;
             
             return al;
         }

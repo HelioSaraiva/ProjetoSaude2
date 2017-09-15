@@ -36,7 +36,7 @@ namespace telaInicial
             {
                 timer1.Enabled = false;
                 this.Visible = false;
-                telaLogin login = new telaLogin();
+                telaLoginn login = new telaLoginn();
                 login.ShowDialog();
             }
         }

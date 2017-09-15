@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.btCadastrar = new System.Windows.Forms.Button();
-            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtEmai = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.txtUsuari = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btCancelar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtSenha = new System.Windows.Forms.TextBox();
+            this.txtSenh = new System.Windows.Forms.TextBox();
             this.dtNasc = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
@@ -52,13 +52,13 @@
             this.btCadastrar.UseVisualStyleBackColor = true;
             this.btCadastrar.Click += new System.EventHandler(this.btCadastrar_Click);
             // 
-            // txtEmail
+            // txtEmai
             // 
-            this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtEmail.Location = new System.Drawing.Point(16, 95);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(140, 20);
-            this.txtEmail.TabIndex = 10;
+            this.txtEmai.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtEmai.Location = new System.Drawing.Point(16, 95);
+            this.txtEmai.Name = "txtEmai";
+            this.txtEmai.Size = new System.Drawing.Size(140, 20);
+            this.txtEmai.TabIndex = 10;
             // 
             // label2
             // 
@@ -70,13 +70,13 @@
             this.label2.TabIndex = 9;
             this.label2.Text = "Email:";
             // 
-            // txtUsuario
+            // txtUsuari
             // 
-            this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtUsuario.Location = new System.Drawing.Point(16, 31);
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(140, 20);
-            this.txtUsuario.TabIndex = 8;
+            this.txtUsuari.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtUsuari.Location = new System.Drawing.Point(16, 31);
+            this.txtUsuari.Name = "txtUsuari";
+            this.txtUsuari.Size = new System.Drawing.Size(140, 20);
+            this.txtUsuari.TabIndex = 8;
             // 
             // label1
             // 
@@ -120,13 +120,13 @@
             this.label4.TabIndex = 13;
             this.label4.Text = "Senha:";
             // 
-            // txtSenha
+            // txtSenh
             // 
-            this.txtSenha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtSenha.Location = new System.Drawing.Point(195, 95);
-            this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(140, 20);
-            this.txtSenha.TabIndex = 18;
+            this.txtSenh.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtSenh.Location = new System.Drawing.Point(195, 95);
+            this.txtSenh.Name = "txtSenh";
+            this.txtSenh.Size = new System.Drawing.Size(140, 20);
+            this.txtSenh.TabIndex = 18;
             // 
             // dtNasc
             // 
@@ -141,15 +141,15 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(409, 184);
+            this.ClientSize = new System.Drawing.Size(468, 294);
             this.Controls.Add(this.dtNasc);
-            this.Controls.Add(this.txtSenha);
+            this.Controls.Add(this.txtSenh);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btCadastrar);
-            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.txtEmai);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtUsuario);
+            this.Controls.Add(this.txtUsuari);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btCancelar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -165,14 +165,14 @@
         #endregion
 
         private System.Windows.Forms.Button btCadastrar;
-        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.TextBox txtEmai;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtUsuario;
+        private System.Windows.Forms.TextBox txtUsuari;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btCancelar;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtSenha;
+        private System.Windows.Forms.TextBox txtSenh;
         private System.Windows.Forms.DateTimePicker dtNasc;
     }
 }

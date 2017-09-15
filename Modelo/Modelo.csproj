@@ -42,7 +42,9 @@
   <ItemGroup>
     <Compile Include="ModeloAmigo.cs" />
     <Compile Include="ModeloChat.cs" />
+    <Compile Include="ModeloConta.cs" />
     <Compile Include="ModeloGrupo.cs" />
+    <Compile Include="ModeloMural.cs" />
     <Compile Include="ModeloUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

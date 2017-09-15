@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(telaPrincipal));
-            this.fotoUsuario = new System.Windows.Forms.PictureBox();
-            this.menuList = new System.Windows.Forms.PictureBox();
             this.footer = new System.Windows.Forms.TableLayoutPanel();
             this.linkLabel4 = new System.Windows.Forms.LinkLabel();
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
@@ -38,52 +36,32 @@
             this.linkLabel5 = new System.Windows.Forms.LinkLabel();
             this.bodyL = new System.Windows.Forms.TableLayoutPanel();
             this.listGurpos = new System.Windows.Forms.ListBox();
-            this.listAmigos = new System.Windows.Forms.ListBox();
             this.amigos = new System.Windows.Forms.LinkLabel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.listAmigos = new System.Windows.Forms.ListBox();
             this.bodyR = new System.Windows.Forms.TableLayoutPanel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.listChat = new System.Windows.Forms.ListBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.linkLabel7 = new System.Windows.Forms.LinkLabel();
-            this.txtNomeUsuario = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.boxSangue = new System.Windows.Forms.TextBox();
+            this.txtNomeUsuario = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.fotoUsuario = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            ((System.ComponentModel.ISupportInitialize)(this.fotoUsuario)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.menuList)).BeginInit();
+            this.menuList = new System.Windows.Forms.PictureBox();
             this.footer.SuspendLayout();
             this.bodyL.SuspendLayout();
             this.bodyR.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.fotoUsuario)).BeginInit();
             this.tableLayoutPanel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.menuList)).BeginInit();
             this.SuspendLayout();
-            // 
-            // fotoUsuario
-            // 
-            this.fotoUsuario.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.fotoUsuario.BackgroundImage = global::telaInicial.Properties.Resources.silhueta_usuario_masculino_318_35708;
-            this.fotoUsuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.fotoUsuario.Location = new System.Drawing.Point(3, 4);
-            this.fotoUsuario.Name = "fotoUsuario";
-            this.fotoUsuario.Size = new System.Drawing.Size(94, 67);
-            this.fotoUsuario.TabIndex = 0;
-            this.fotoUsuario.TabStop = false;
-            // 
-            // menuList
-            // 
-            this.menuList.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.menuList.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("menuList.BackgroundImage")));
-            this.menuList.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.menuList.Location = new System.Drawing.Point(4, 4);
-            this.menuList.Name = "menuList";
-            this.menuList.Size = new System.Drawing.Size(70, 66);
-            this.menuList.TabIndex = 1;
-            this.menuList.TabStop = false;
             // 
             // footer
             // 
@@ -187,9 +165,9 @@
             this.bodyL.ColumnCount = 1;
             this.bodyL.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.bodyL.Controls.Add(this.listGurpos, 0, 3);
-            this.bodyL.Controls.Add(this.listAmigos, 0, 1);
             this.bodyL.Controls.Add(this.amigos, 0, 0);
             this.bodyL.Controls.Add(this.linkLabel1, 0, 2);
+            this.bodyL.Controls.Add(this.listAmigos, 0, 1);
             this.bodyL.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bodyL.Location = new System.Drawing.Point(0, 78);
             this.bodyL.Name = "bodyL";
@@ -223,6 +201,42 @@
             this.listGurpos.Size = new System.Drawing.Size(194, 209);
             this.listGurpos.TabIndex = 2;
             // 
+            // amigos
+            // 
+            this.amigos.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.amigos.AutoSize = true;
+            this.amigos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.amigos.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.amigos.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.amigos.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
+            this.amigos.LinkColor = System.Drawing.SystemColors.ControlLightLight;
+            this.amigos.Location = new System.Drawing.Point(3, 0);
+            this.amigos.Name = "amigos";
+            this.amigos.Size = new System.Drawing.Size(194, 25);
+            this.amigos.TabIndex = 0;
+            this.amigos.TabStop = true;
+            this.amigos.Text = "Amigos";
+            this.amigos.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.linkLabel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.linkLabel1.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
+            this.linkLabel1.LinkColor = System.Drawing.SystemColors.ControlLightLight;
+            this.linkLabel1.Location = new System.Drawing.Point(3, 255);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(194, 25);
+            this.linkLabel1.TabIndex = 1;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Grupos";
+            this.linkLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // listAmigos
             // 
             this.listAmigos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -245,42 +259,6 @@
             this.listAmigos.Name = "listAmigos";
             this.listAmigos.Size = new System.Drawing.Size(194, 209);
             this.listAmigos.TabIndex = 0;
-            // 
-            // amigos
-            // 
-            this.amigos.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.amigos.AutoSize = true;
-            this.amigos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.amigos.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.amigos.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.amigos.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
-            this.amigos.LinkColor = System.Drawing.Color.Black;
-            this.amigos.Location = new System.Drawing.Point(3, 0);
-            this.amigos.Name = "amigos";
-            this.amigos.Size = new System.Drawing.Size(194, 25);
-            this.amigos.TabIndex = 0;
-            this.amigos.TabStop = true;
-            this.amigos.Text = "Amigos";
-            this.amigos.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.linkLabel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.linkLabel1.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
-            this.linkLabel1.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel1.Location = new System.Drawing.Point(3, 255);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(194, 25);
-            this.linkLabel1.TabIndex = 1;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Grupos";
-            this.linkLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bodyR
             // 
@@ -306,9 +284,9 @@
             this.linkLabel2.AutoSize = true;
             this.linkLabel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.linkLabel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.linkLabel2.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel2.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel2.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
-            this.linkLabel2.LinkColor = System.Drawing.Color.Black;
+            this.linkLabel2.LinkColor = System.Drawing.SystemColors.ControlLightLight;
             this.linkLabel2.Location = new System.Drawing.Point(3, 0);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(153, 25);
@@ -383,9 +361,9 @@
             this.linkLabel7.AutoSize = true;
             this.linkLabel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.linkLabel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.linkLabel7.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel7.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel7.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
-            this.linkLabel7.LinkColor = System.Drawing.Color.Black;
+            this.linkLabel7.LinkColor = System.Drawing.SystemColors.ControlLightLight;
             this.linkLabel7.Location = new System.Drawing.Point(3, 0);
             this.linkLabel7.Name = "linkLabel7";
             this.linkLabel7.Size = new System.Drawing.Size(572, 25);
@@ -393,21 +371,6 @@
             this.linkLabel7.TabStop = true;
             this.linkLabel7.Text = "Discussões";
             this.linkLabel7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtNomeUsuario
-            // 
-            this.txtNomeUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtNomeUsuario.BackColor = System.Drawing.Color.Green;
-            this.txtNomeUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtNomeUsuario.Font = new System.Drawing.Font("Georgia", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNomeUsuario.ForeColor = System.Drawing.Color.Black;
-            this.txtNomeUsuario.Location = new System.Drawing.Point(3, 3);
-            this.txtNomeUsuario.Name = "txtNomeUsuario";
-            this.txtNomeUsuario.Size = new System.Drawing.Size(755, 40);
-            this.txtNomeUsuario.TabIndex = 5;
-            this.txtNomeUsuario.TabStop = false;
-            this.txtNomeUsuario.Text = "Nome do Usuario";
-            this.txtNomeUsuario.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tableLayoutPanel2
             // 
@@ -431,15 +394,31 @@
             this.boxSangue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.boxSangue.BackColor = System.Drawing.Color.Green;
             this.boxSangue.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.boxSangue.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boxSangue.ForeColor = System.Drawing.Color.Black;
+            this.boxSangue.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.boxSangue.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.boxSangue.Location = new System.Drawing.Point(3, 40);
             this.boxSangue.Name = "boxSangue";
-            this.boxSangue.Size = new System.Drawing.Size(755, 31);
+            this.boxSangue.Size = new System.Drawing.Size(755, 32);
             this.boxSangue.TabIndex = 6;
             this.boxSangue.TabStop = false;
             this.boxSangue.Text = "A+";
             this.boxSangue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtNomeUsuario
+            // 
+            this.txtNomeUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtNomeUsuario.BackColor = System.Drawing.Color.Green;
+            this.txtNomeUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNomeUsuario.Font = new System.Drawing.Font("Arial", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNomeUsuario.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtNomeUsuario.Location = new System.Drawing.Point(3, 3);
+            this.txtNomeUsuario.Name = "txtNomeUsuario";
+            this.txtNomeUsuario.Size = new System.Drawing.Size(755, 41);
+            this.txtNomeUsuario.TabIndex = 5;
+            this.txtNomeUsuario.TabStop = false;
+            this.txtNomeUsuario.Text = "Nome do Usuario";
+            this.txtNomeUsuario.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtNomeUsuario.TextChanged += new System.EventHandler(this.txtNomeUsuario_TextChanged);
             // 
             // tableLayoutPanel3
             // 
@@ -454,6 +433,17 @@
             this.tableLayoutPanel3.Size = new System.Drawing.Size(102, 75);
             this.tableLayoutPanel3.TabIndex = 12;
             // 
+            // fotoUsuario
+            // 
+            this.fotoUsuario.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.fotoUsuario.BackgroundImage = global::telaInicial.Properties.Resources.silhueta_usuario_masculino_318_35708;
+            this.fotoUsuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.fotoUsuario.Location = new System.Drawing.Point(3, 4);
+            this.fotoUsuario.Name = "fotoUsuario";
+            this.fotoUsuario.Size = new System.Drawing.Size(94, 67);
+            this.fotoUsuario.TabIndex = 0;
+            this.fotoUsuario.TabStop = false;
+            // 
             // tableLayoutPanel4
             // 
             this.tableLayoutPanel4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -467,6 +457,17 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.Size = new System.Drawing.Size(77, 75);
             this.tableLayoutPanel4.TabIndex = 13;
+            // 
+            // menuList
+            // 
+            this.menuList.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.menuList.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("menuList.BackgroundImage")));
+            this.menuList.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.menuList.Location = new System.Drawing.Point(4, 4);
+            this.menuList.Name = "menuList";
+            this.menuList.Size = new System.Drawing.Size(70, 66);
+            this.menuList.TabIndex = 1;
+            this.menuList.TabStop = false;
             // 
             // telaPrincipal
             // 
@@ -491,8 +492,6 @@
             this.Text = "telaPrincipal";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.telaPrincipal_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.fotoUsuario)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.menuList)).EndInit();
             this.footer.ResumeLayout(false);
             this.footer.PerformLayout();
             this.bodyL.ResumeLayout(false);
@@ -504,7 +503,9 @@
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
             this.tableLayoutPanel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.fotoUsuario)).EndInit();
             this.tableLayoutPanel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.menuList)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -526,12 +527,12 @@
         private System.Windows.Forms.LinkLabel linkLabel4;
         private System.Windows.Forms.LinkLabel linkLabel3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        public System.Windows.Forms.TextBox txtNomeUsuario;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        public System.Windows.Forms.TextBox boxSangue;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private System.Windows.Forms.LinkLabel linkLabel7;
         private System.Windows.Forms.ListBox listBox1;
+        public System.Windows.Forms.TextBox boxSangue;
+        public System.Windows.Forms.TextBox txtNomeUsuario;
     }
 }

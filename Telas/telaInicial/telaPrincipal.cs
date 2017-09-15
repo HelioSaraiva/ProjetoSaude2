@@ -41,5 +41,10 @@ namespace telaInicial
         {
 
         }
+
+        private void txtNomeUsuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

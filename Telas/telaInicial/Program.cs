@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace telaInicial
 {
-    static class Program
+    static class Program 
     {
         /// <summary>
         /// The main entry point for the application.
@@ -16,7 +16,7 @@ namespace telaInicial
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new telaSplash());
+            Application.Run(new telaLogin());
         }
     }
 }

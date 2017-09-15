@@ -63,6 +63,16 @@ namespace telaInicial.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _6h1bGSlL_400x400 {
+            get {
+                object obj = ResourceManager.GetObject("6h1bGSlL_400x400", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _860px_Caduceus_svg {
             get {
                 object obj = ResourceManager.GetObject("860px-Caduceus.svg", resourceCulture);
@@ -76,6 +86,16 @@ namespace telaInicial.Properties {
         internal static System.Drawing.Bitmap loading {
             get {
                 object obj = ResourceManager.GetObject("loading", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo10 {
+            get {
+                object obj = ResourceManager.GetObject("logo10", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using Modelo;
 using System.Collections;
 using Controle;
-using Memoria;
+using Lista;
 
 namespace telaInicial
 {
@@ -35,19 +35,19 @@ namespace telaInicial
         {
 
         try {
-                ModeloUsuario modelo = new ModeloUsuario();
+                ModeloConta modelo = new ModeloConta();
 
                 // aq é necessário gerar o id do usuário, o id pode ser número do vetor usuário
-                modelo.UserName = txtUsuario.Text;
-                modelo.UserPW = txtSenha.Text;
-                modelo.UserEmail = txtEmail.Text;
-                modelo.UserNasc = dtNasc.Value;
+                modelo.UserName = txtUsuari.Text;
+                modelo.UserPW = txtSenh.Text;
+                modelo.UserEmail = txtEmai.Text;
+              //  modelo.UserNasc = dtNasc.Value;
              //   ListaUsuario.Add(modelo);
 
-                ControleUsuario MandaProControle = new ControleUsuario();
+                ControleConta MandaProControle = new ControleConta();
                 MandaProControle.Incluir(modelo);
 
-               // MessageBox.Show("Cadastro efetuado: Dados " + ListaUsuario.Count.ToString());
+                MessageBox.Show("Cadastro efetuado");
             }
             catch (Exception erro)
             {

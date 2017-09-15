@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelo", "Modelo\Modelo.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controle", "Controle\Controle.csproj", "{86A87D5F-E593-4EA1-94DA-0170445CB221}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memoria", "Memoria\Memoria.csproj", "{DF26DD38-45F7-4C5A-85F5-077E7E660AE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lista", "Memoria\Lista.csproj", "{DF26DD38-45F7-4C5A-85F5-077E7E660AE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
